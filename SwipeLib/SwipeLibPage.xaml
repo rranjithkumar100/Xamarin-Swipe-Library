@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SwipeLib" x:Class="SwipeLib.SwipeLibPage">
+
+<StackLayout
+		>
+
+	<Label 
+		x:Name="lbl_swipe"
+		Text="Welcome to Xamarin Forms! Drag it" 
+		WidthRequest="300" 
+		HeightRequest="200" 
+		BackgroundColor="Yellow"
+		TextColor="Black"
+		FontSize="20"
+		VerticalOptions="Center" 
+		HorizontalOptions="Center">
+	</Label>
+
+
+
+
+	<Label 
+		x:Name="lbl_result"
+		WidthRequest="300" 
+		HeightRequest="100" 
+		BackgroundColor="Purple"
+		TextColor="White"
+		FontSize="20"
+		VerticalOptions="End" 
+		HorizontalOptions="Center">
+	</Label>
+
+		</StackLayout>
+</ContentPage>
