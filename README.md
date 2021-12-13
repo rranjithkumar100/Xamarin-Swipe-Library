@@ -3,9 +3,9 @@
 
 **Step 1: In your view**
 
-For ex: your view is **lbl_swipe**
+For ex: your view is **rootView**
 
-SwipeListener swipeListener = new SwipeListener(**lbl_swipe**, this);
+SwipeListener swipeListener = new SwipeListener(**rootView**, this);
 
 
 **Step 2: In your Xamarin forms page ---> Implement ISwipeCallBack**
